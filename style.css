@@ -1,5 +1,7 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
 
 html {
   background-color: #F9F5FF;
@@ -16,7 +18,7 @@ h1 {
   text-decoration-line: underline;
   text-decoration-thickness: 0.1rem;
   text-underline-offset: 0.1rem;
-  text-decoration-color: #4e1899;
+  text-decoration-color: #44a9a2;
 }
 
 header h2 {
@@ -25,5 +27,22 @@ header h2 {
 
 header p {
   text-align: center;
+}
+
+/* Changing the h2's with a set font weight and style  */
+h2 {
+font-family: lora;
+font-style: italic;
+font-weight: 550;
+}
+
+/* Making the links more stylish */
+a {
+  text-decoration-thickness: -0.1rem;
+  color: #2f7470;
+}
+
+a:visited {
+  color: #984dfb;
 }
 
