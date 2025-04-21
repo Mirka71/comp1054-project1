@@ -101,7 +101,6 @@ nav ul{
 footer .link-github {
   display: flex;
   flex-direction: row;
-  justify-content: left;
   margin: 0;
 }
 
@@ -109,7 +108,30 @@ footer ul {
   list-style-type: none;
 }
 
-#id .container {
-  display:flex;
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+footer .container {
+  display: flex;
   flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.profile .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+/* Take off list style in footer */
+.profile .container ul{
+list-style-type: none;
 }
