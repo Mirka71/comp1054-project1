@@ -4,12 +4,13 @@
 
 
 html {
-  background-color: #F9F5FF;
+  background-color: #ded8e1;
+  font-family: lora;
 }
 
 h1 {
   text-align: center;
-  font-family: Edu AU VIC WA NT Arrows;
+  font-family: Edu AU VIC WA NT Arrows, Arial, Helvetica, sans-serif;
   color: #14248a;
   font-size: 4rem;
   font-style: italic;
@@ -31,18 +32,60 @@ header p {
 
 /* Changing the h2's with a set font weight and style  */
 h2 {
-font-family: lora;
+font-family: lora, Arial, Helvetica, sans-serif;
 font-style: italic;
 font-weight: 550;
+font-size: 1.6rem;
 }
 
 /* Making the links more stylish */
 a {
   text-decoration-thickness: -0.1rem;
   color: #2f7470;
+  font-style: italic;
+  font-size: 1.1rem;
 }
 
 a:visited {
   color: #984dfb;
 }
+
+/* Arrange ul links */
+nav ul{
+  padding: 0.4rem;
+  display: block;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none;
+ }
+
+ /* Add padding between li links */
+ nav li {
+  padding: 1rem;
+ }
+
+ body  {
+  margin: 5rem 5rem 0rem 5rem;
+ }
+
+ /* Link at top left corner */
+.skip-link {  
+  position: absolute;
+  top: 0;
+  left: 0;
+ }
+
+ /* Add more padding around content */
+ section {
+  padding: 3rem 10rem;
+ }
+
+ /* Make the SVG star smaller */
+ svg {
+  height: 2vw;
+  width: 1vw;
+ }
+
 
