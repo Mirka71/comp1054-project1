@@ -135,3 +135,26 @@ footer .container {
 .profile .container ul{
 list-style-type: none;
 }
+
+#styles .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+#styles .container ul{
+  list-style-type: none;
+
+}
+
+ul li{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+footer .container p:nth-of-type(2) {  
+  margin-top: 5rem;
+}
