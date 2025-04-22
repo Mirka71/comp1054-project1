@@ -167,7 +167,7 @@ footer .container p:nth-of-type(2) {
 }
 
 section blockquote {
-  padding: 1rem 15rem;
+  padding: 1rem 5rem;
   line-height: 2rem;
   background-color: #dac5f6;
 }
@@ -175,7 +175,18 @@ section blockquote {
 nav ul li{
   background-color: #dac5f6;
 }
-/* 
-section h2 p p ul  {
-  color: #14248a;
-} */
+a:hover {
+  color: rgb(141, 195, 177);
+}
+
+
+/* Add media query */
+@media screen and (min-device-width: 140px) and (max-device-width: 500px){
+  
+  /* Change background colour */
+  html {
+    background-color: #e9d3ed;
+  }
+
+
+}
