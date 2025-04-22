@@ -181,12 +181,30 @@ a:hover {
 
 
 /* Add media query */
-@media screen and (min-device-width: 140px) and (max-device-width: 500px){
+@media screen and (min-device-width: 140px) and (max-device-width: 800px){
   
   /* Change background colour */
   html {
     background-color: #e9d3ed;
   }
 
+  body {
+    margin: 0;
+  }
+
+  section {
+    padding: 0;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .container blockquote {
+   padding: 0;
+   margin: 0;
+  }
 
 }
